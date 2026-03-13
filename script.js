@@ -1,6 +1,6 @@
 function isSameType(value1, value2) {
   //your js code here
-	return typeof value1 === typeof value2;
+	return typeof parseInt(value1) === typeof parseInt(value2);
 
 	
 	
